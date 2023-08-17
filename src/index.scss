@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  p {
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: clamp(1.2rem, 4vw, 2.5rem);
+    color: #111517;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}

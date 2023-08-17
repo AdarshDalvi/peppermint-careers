@@ -1,0 +1,57 @@
+.hero-container {
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        z-index: 1;
+    }
+
+    .section-wrapper {
+        position: absolute;
+        bottom: 70px;
+        width: max(585px, auto);
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        padding: 0 20px;
+
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+        }
+
+        button {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            font-weight: bold;
+            padding: 0.5em 1.5em;
+            align-self: center;
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+
+            &:hover {
+                background-color: #1d988a;
+                cursor: pointer;
+            }
+        }
+
+    }
+}

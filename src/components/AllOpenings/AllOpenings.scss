@@ -1,0 +1,44 @@
+.openings-container {
+    margin: 2rem auto 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+    }
+
+    .search-container {
+        display: flex;
+        margin-top: 0.4em;
+
+        input {
+            width: clamp(180px, 27vw, 470px);
+            padding: 0.5em 2em;
+            border: 1px solid;
+            border-top-left-radius: 0.4rem;
+            border-bottom-left-radius: 0.4rem;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            padding: 10px 20px 5px 20px;
+            border: 1px solid;
+            border-left: none;
+            background-color: #22AE9D;
+            border-top-right-radius: 0.4rem;
+            border-bottom-right-radius: 0.4rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    p {
+        margin-top: 2em;
+    }
+}

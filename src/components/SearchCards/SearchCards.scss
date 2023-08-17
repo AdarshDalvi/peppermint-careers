@@ -1,0 +1,27 @@
+.searchCard {
+    margin-top: 20px;
+    background-color: rgb(236, 236, 236);
+    padding: 0.6em 2em;
+    box-shadow: 3px 3px 10px rgba($color: #000000, $alpha: 0.4);
+
+    .sinfo {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        .sleft {
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+            p {
+                margin-top: 0;
+                margin-left: 10px;
+            }
+        }
+
+        button {
+            padding: 0.4em 1.5em;
+        }
+    }
+}
