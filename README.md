@@ -4,7 +4,7 @@ Welcome to the Peppermint Service Robots Careers Page repository! This project s
 
 ## Description
 
-The Peppermint Service Robots Careers Page is a web application designed to engage potential candidates and provide information about the company's vision, job openings, and opportunities. 
+The Peppermint Service Robots Careers Page is a web application built with React.js to engage potential candidates and provide information about the company's vision, job openings, and opportunities. 
 
 ## Features
 
@@ -17,8 +17,9 @@ The Peppermint Service Robots Careers Page is a web application designed to enga
 
 1. Clone the repository to your local machine.
 2. Open the project folder in your preferred code editor.
-3. Customize the content, styling, and job openings as needed.
-4. Launch the HTML file in a web browser to view the careers page.
+3. Install dependencies using `npm install`.
+4. Customize the content, styling, and job openings as needed.
+5. Run the app using `npm run dev` and access it in your browser.
 
 ## Usage
 
@@ -28,10 +29,9 @@ The Peppermint Service Robots Careers Page is a web application designed to enga
 
 ## Technologies Used
 
+- React.js
 - HTML
 - CSS
-- JavaScript
-- ReactJs
 
 ## Contributing
 
